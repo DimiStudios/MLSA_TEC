@@ -3,9 +3,7 @@
  *
  * Space for you to describe more about yourself.
  */
-
 import React from "react";
-
 /**
  * About background image
  *
@@ -16,37 +14,32 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
-
-const imageAltText = "purple and blue abstract background";
-
+import image from "../images/img1.jpg";
+const imageAltText = "blue code background";
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
-
+  "I am currently pursuing a degree in Systems Engineering, and simultaneously working towards a Cybersecurity Engineering degree. Additionally, I am proud to be a Microsoft Learn Student Ambassador.";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
   "Web design",
-  "User experience",
+  "Software development",
   "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
   "Graphic design",
+  "User Experience (UX) Design",
+  "Mobile App Development"
 ];
-
 /**
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
-
+  "In the digital realm, the integration of web design, software development, graphic design, and mobile applications aims to provide innovative solutions that balance aesthetics, functionality, and accessibility, thus meeting the diverse needs of the digital audience.";
 const About = () => {
   return (
     <section className="padding" id="about">
